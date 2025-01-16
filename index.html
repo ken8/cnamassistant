@@ -19,13 +19,12 @@
           justify-content: space-between;
         }
         .content {
-          width: 60%;
+          width: 100%;
         }
         .chatbot {
-          width: 38%;
-          border: 1px solid #ccc;
-          border-radius: 5px;
-          padding: 10px;
+          width: 100%;
+          text-align: center;
+          margin-top: 20px;
         }
       </style>
     </head>
@@ -60,10 +59,10 @@
             the relevant Canadian authorities.
           </p>
         </div>
-        <div class="chatbot">
-          <script async type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
-          <zapier-interfaces-chatbot-embed is-popup='false' chatbot-id='cm5jkq1du007x11psb8kd9gn1' height='600px' width='400px'></zapier-interfaces-chatbot-embed>
-        </div>
+      </div>
+      <div class="chatbot">
+        <script async type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
+        <zapier-interfaces-chatbot-embed is-popup='true' chatbot-id='cm5jkq1du007x11psb8kd9gn1'></zapier-interfaces-chatbot-embed>
       </div>
     </body>
     </html>
